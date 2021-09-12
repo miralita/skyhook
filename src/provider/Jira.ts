@@ -8,6 +8,7 @@ class Jira extends BaseProvider {
     constructor() {
         super()
         this.setEmbedColor(0x1e45a8)
+        this.payload.avatar_url = 'https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png'
     }
 
     public getName(): string {

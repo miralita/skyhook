@@ -16,6 +16,7 @@ class Basecamp extends BaseProvider {
     constructor() {
         super()
         this.turndown = new TurndownService()
+        this.payload.avatar_url = 'https://avatars.githubusercontent.com/u/13131'
     }
 
     public getName(): string {
